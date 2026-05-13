@@ -1,0 +1,26 @@
+{
+  "name": "learnnode",
+  "module": "index.js",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "bulma": "^1.0.4",
+    "sass-embedded": "^1.93.3",
+    "vite": "^7.2.4"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue": "^6.0.3",
+    "axios": "^1.13.6",
+    "boxen": "^8.0.1",
+    "vue": "^3.5.26",
+    "vue-router": "4"
+  }
+}
